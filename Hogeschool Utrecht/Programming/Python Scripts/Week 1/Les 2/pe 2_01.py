@@ -1,6 +1,9 @@
 letters = ('A', 'C', 'B', 'B', 'C', 'A', 'C', 'C', 'B')
-A = letters.count('A')
-B = letters.count('B')
-C = letters.count('C')
-print(A, B, C)
+alphabet = ['A', 'B', 'C', 'D']
+legelijst = []
 
+for letter in alphabet:
+    if letters.count(letter):
+        legelijst.append(letter + " : " + str(letters.count(letter)))
+
+print(legelijst)
