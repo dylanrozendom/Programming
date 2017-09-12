@@ -1,5 +1,8 @@
 age = eval(input("leeftijd: "))
-if age > 17:
-    print ("je mag stemmen")
+paspoort = input("Nederlands paspoort: ")
+
+
+if age > 17 and paspoort == 'ja' :
+    print ("Gefeliciteerd je mag stemmen")
 else:
     print ("je mag niet stemmen")
