@@ -16,8 +16,6 @@ def nieuw_kluis():
         code = input('voer hier je 4 cijverige code in ')
         file.write(str(nummer) + ' - ' + str(naam) + ' - ' + str(code) + '\n')
 
-
-
 def kluis_openen():
     nummer = input('je nummer is ')
     code = input('Je code is ')
